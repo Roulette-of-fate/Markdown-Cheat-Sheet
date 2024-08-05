@@ -1,10 +1,10 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #e8f5e9; /* Light green background */
+    background-color: #f5f5f5; /* Light grey background */
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #B2C1C4; /* Pale blue-green text color */
 }
 
 .container {
@@ -24,14 +24,14 @@ header {
 
 h1 {
     font-size: 2.5rem;
-    color: #388e3c; /* Dark green for headings */
+    color: #B2C1C4; /* Pale blue-green for headings */
     font-weight: 700;
     margin: 0;
 }
 
 p {
     font-size: 1rem;
-    color: #555;
+    color: #B2C1C4; /* Pale blue-green for paragraph text */
     margin: 10px 0;
 }
 
@@ -41,15 +41,15 @@ section {
 
 h2 {
     font-size: 1.75rem;
-    color: #388e3c; /* Dark green for subheadings */
-    border-bottom: 2px solid #66bb6a; /* Lighter green border */
+    color: #B2C1C4; /* Pale blue-green for subheadings */
+    border-bottom: 2px solid #CFCFCD; /* Light grey border */
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
 pre {
-    background: #f1f8e9; /* Very light green background */
-    border-left: 5px solid #388e3c; /* Dark green border */
+    background: #f0f0f0; /* Very light grey background */
+    border-left: 5px solid #CFCFCD; /* Light grey border */
     padding: 15px;
     border-radius: 8px;
     overflow-x: auto;
@@ -59,16 +59,17 @@ pre {
 
 code {
     font-family: 'Courier New', Courier, monospace;
+    color: #333; /* Dark grey code text color */
 }
 
 a {
-    color: #388e3c;
+    color: #B2C1C4; /* Pale blue-green for links */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #2c6b2f;
+    color: #8A9A5B; /* Slightly darker pale green on hover */
     text-decoration: underline;
 }
 
@@ -85,10 +86,10 @@ th, td {
 }
 
 th {
-    background-color: #388e3c; /* Dark green header background */
-    color: #fff;
+    background-color: #CFCFCD; /* Light grey header background */
+    color: #B2C1C4; /* Pale blue-green for header text */
 }
 
 tr:nth-child(even) {
-    background-color: #f9fbe7; /* Very light green rows */
+    background-color: #f9f9f9; /* Very light grey rows */
 }
